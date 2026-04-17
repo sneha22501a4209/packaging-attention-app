@@ -1102,7 +1102,7 @@ with tab4:
       <div class="hero-tag">Academic Project</div>
       <h1 style="font-size:2.2rem">PackageAI</h1>
       <p>Real-Time Packaging Attention Prediction using Deep Learning + MACROS Ranking</p>
-      <p style="font-size:0.85rem;margin-top:4px;opacity:0.5">Final Year Major Project · 2024–25</p>
+      <p style="font-size:0.85rem;margin-top:4px;opacity:0.5">Final Year Major Project · 2025–26</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -1296,12 +1296,6 @@ with tab4:
 
     # Limitations
     st.markdown("<div class='about-section'>", unsafe_allow_html=True)
-    st.markdown("### ⚠️ Current Limitations")
-    st.markdown("""
-    - **Dataset scope:** Model trained primarily on biscuit packaging — performance may vary on very different product categories.
-    - **Label subjectivity:** MACROS criterion scores are human-annotated — some annotator bias may exist.
-    - **Image quality:** Very low-resolution or blurry images may reduce prediction accuracy.
-    - **Context missing:** The model sees only the front face — it cannot evaluate back-of-pack, 3D structure, or tactile material feel.
-    - **Cultural context:** Colour psychology differs across markets — current model reflects a general (non-regional) training set.
-    """)
+ 
+  
     st.markdown("</div>", unsafe_allow_html=True)
