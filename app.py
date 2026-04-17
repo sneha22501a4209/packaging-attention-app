@@ -512,7 +512,7 @@ def compute_goal_score(scores, goal):
 # ── HERO ─────────────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-  <div class="hero-tag">Final Year Project · 2024–25</div>
+  <div class="hero-tag">Final Year Project · 2025–26</div>
   <h1>📦 PackageAI</h1>
   <p>AI-Powered Packaging Feedback · Design Comparison · Smart Recommendations</p>
 </div>
