@@ -864,14 +864,4 @@ with tab6:
  
                         )
                         
-# ══════════════════════════════════════════════════════════════════════════════
-# TAB 6 — ABOUT
-# ══════════════════════════════════════════════════════════════════════════════
 
-with tab7:
-    st.markdown('<div class="card"><h3>🎯 About PackageAI</h3><p style="color:rgba(255,255,255,0.7)">Packaging Attention Prediction + Electronics Brand Attention. Final Year Major Project 2024-25. Prasad V. Potluri Siddhartha Institute of Technology.</p></div>',unsafe_allow_html=True)
-    c1,c2,c3,c4,c5 = st.columns(5)
-    for col,icon,title,desc in [(c1,"🧠","MobileNetV2","Packaging Model"),(c2,"📊","MACROS","Multi-Criteria Ranking"),(c3,"📦","5058 Images","Biscuit Dataset"),(c4,"🔬","BERT+CNN","Electronics Model"),(c5,"🎨","Pollinations","AI Image Gen")]:
-        col.markdown(f'<div class="metric-box"><div style="font-size:2rem">{icon}</div><div style="font-weight:700;margin:8px 0">{title}</div><div style="color:rgba(255,255,255,0.6);font-size:0.85rem">{desc}</div></div>',unsafe_allow_html=True)
-    st.markdown("<br>",unsafe_allow_html=True)
-    st.markdown('<div class="card"><h4>⚖️ MACROS Weights</h4><table style="width:100%;color:rgba(255,255,255,0.8)"><tr><td>🎨 Visual Appeal</td><td><b>30%</b></td></tr><tr><td>❤️ Emotional Resonance</td><td><b>40%</b></td></tr><tr><td>🧠 Brand Recall</td><td><b>10%</b></td></tr><tr><td>⚙️ Functionality</td><td><b>10%</b></td></tr><tr><td>🌿 Sustainability</td><td><b>10%</b></td></tr></table></div>',unsafe_allow_html=True)
