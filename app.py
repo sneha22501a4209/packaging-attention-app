@@ -236,11 +236,29 @@ def get_suggestions(product_name, style, colour_theme):
     return result
 
 def gen_image_url(product_name, style, colour_theme, extra_notes):
-    prompt  = (f"professional product packaging design for {product_name}, "
-               f"{{'Bold & Vibrant':'vibrant colorful bold','Eco-Friendly':'eco natural earthy','Minimalist':'clean minimal elegant','Interactive':'modern dynamic futuristic'}.get(style,'professional')}, "
-               f"{{'🔥 Warm':'warm red orange gold','❄️ Cool':'cool blue teal silver','🌿 Earth':'earthy green brown','🎨 Bold':'vivid multicolor','🖤 Dark':'dark black premium'}.get(colour_theme,'appealing colors')}, "
-               f"retail shelf packaging, high quality, modern graphic design, {extra_notes or ''}, white background, studio lighting")
-    return f"https://image.pollinations.ai/prompt/{urllib.parse.quote(prompt)}?width=512&height=512&nologo=true", prompt
+    style_map = {
+        "Bold & Vibrant": "vibrant colorful bold graphic design packaging",
+        "Eco-Friendly":   "eco natural earthy minimal packaging design",
+        "Minimalist":     "clean minimal elegant white packaging design",
+        "Interactive":    "modern dynamic interactive futuristic packaging",
+    }
+    colour_map = {
+        "🔥 Warm": "warm red orange gold tones",
+        "❄️ Cool":  "cool blue teal silver tones",
+        "🌿 Earth": "earthy green brown natural tones",
+        "🎨 Bold":  "vivid multicolor bright tones",
+        "🖤 Dark":  "dark black premium sophisticated tones",
+    }
+    style_text  = style_map.get(style, "professional packaging design")
+    colour_text = colour_map.get(colour_theme, "appealing color palette")
+    prompt = (
+        f"professional product packaging design for {product_name}, "
+        f"{style_text}, {colour_text}, "
+        f"retail shelf packaging, high quality, modern graphic design, "
+        f"{extra_notes or ''}, white background, studio lighting"
+    )
+    url = f"https://image.pollinations.ai/prompt/{urllib.parse.quote(prompt)}?width=512&height=512&nologo=true"
+    return url, prompt
 
 def predict_electronics(text, image, model, device, tokenizer):
     from torchvision import transforms as T
