@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Dell XPS 15",
+    "brand": "Dell",
+    "category": "laptop",
+    "price": "\u20b91,20,000",
+    "image": "https://m.media-amazon.com/images/I/61jbqRbHYUL._AC_SL1500_.jpg",
+    "review": "Exceptional build quality, stunning 4K OLED display, blazing fast performance for video editing and programming. Battery could be better but overall outstanding machine."
+  },
+  {
+    "name": "Apple MacBook Air M2",
+    "brand": "Apple",
+    "category": "laptop",
+    "price": "\u20b91,14,900",
+    "image": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_SL1500_.jpg",
+    "review": "Absolutely silent, incredibly thin and light. M2 chip handles everything effortlessly. Best laptop I have ever owned. Battery lasts all day easily."
+  },
+  {
+    "name": "HP Pavilion 15",
+    "brand": "HP",
+    "category": "laptop",
+    "price": "\u20b955,000",
+    "image": "https://m.media-amazon.com/images/I/61MWnmXOABL._AC_SL1500_.jpg",
+    "review": "Good value for money. Decent performance for everyday tasks and college work. Build quality feels a bit plastic but screen is nice."
+  },
+  {
+    "name": "Lenovo ThinkPad E15",
+    "brand": "Lenovo",
+    "category": "laptop",
+    "price": "\u20b968,000",
+    "image": "https://m.media-amazon.com/images/I/51YW5aE1mQL._AC_SL1500_.jpg",
+    "review": "Excellent keyboard, rock solid build. Perfect for business use. ThinkPad reliability is legendary. Highly recommended for professionals."
+  },
+  {
+    "name": "ASUS ROG Strix G15",
+    "brand": "ASUS",
+    "category": "laptop",
+    "price": "\u20b995,000",
+    "image": "https://m.media-amazon.com/images/I/81fmMCqLt2L._AC_SL1500_.jpg",
+    "review": "Incredible gaming performance, RTX 3060 handles all modern games at high settings. Runs a bit hot but cooling is manageable. Great display."
+  },
+  {
+    "name": "Acer Aspire 5",
+    "brand": "Acer",
+    "category": "laptop",
+    "price": "\u20b942,000",
+    "image": "https://m.media-amazon.com/images/I/71OeKxCG3VL._AC_SL1500_.jpg",
+    "review": "Average laptop for the price. Works fine for basic tasks. Nothing special but gets the job done. Decent battery life."
+  },
+  {
+    "name": "Microsoft Surface Laptop 5",
+    "brand": "Microsoft",
+    "category": "laptop",
+    "price": "\u20b91,05,000",
+    "image": "https://m.media-amazon.com/images/I/61AJ5VHyFrL._AC_SL1500_.jpg",
+    "review": "Gorgeous design, premium feel, excellent display. Windows 11 runs beautifully. Touchscreen is very responsive. Slightly overpriced but worth it."
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "category": "headphone",
+    "price": "\u20b929,990",
+    "image": "https://m.media-amazon.com/images/I/61oqOGxCGrL._AC_SL1500_.jpg",
+    "review": "Best noise cancellation I have ever experienced. Sound quality is phenomenal. Comfortable for all-day wear. Battery lasts 30 hours. Absolutely worth every rupee."
+  },
+  {
+    "name": "Apple AirPods Pro 2",
+    "brand": "Apple",
+    "category": "headphone",
+    "price": "\u20b924,900",
+    "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg",
+    "review": "Outstanding ANC, seamless Apple device integration, comfortable fit, great sound. Transparency mode sounds completely natural. Premium product."
+  },
+  {
+    "name": "Bose QuietComfort 45",
+    "brand": "Bose",
+    "category": "headphone",
+    "price": "\u20b926,900",
+    "image": "https://m.media-amazon.com/images/I/51rVDFynmLL._AC_SL1500_.jpg",
+    "review": "Legendary Bose comfort. Can wear these for 8 hours without fatigue. Noise cancellation is excellent. Sound is balanced and detailed."
+  },
+  {
+    "name": "boAt Rockerz 550",
+    "brand": "boAt",
+    "category": "headphone",
+    "price": "\u20b91,499",
+    "image": "https://m.media-amazon.com/images/I/71hWFEbGvPL._AC_SL1500_.jpg",
+    "review": "Great value for money. Bass is punchy. Build quality is decent for the price. Battery life of 20 hours is impressive at this price point."
+  },
+  {
+    "name": "JBL Tune 770NC",
+    "brand": "JBL",
+    "category": "headphone",
+    "price": "\u20b95,999",
+    "image": "https://m.media-amazon.com/images/I/71mwqYJxnhL._AC_SL1500_.jpg",
+    "review": "Good sound, decent ANC for the price. Lightweight and foldable. JBL signature bass. Great mid-range option."
+  },
+  {
+    "name": "Sennheiser HD 599",
+    "brand": "Sennheiser",
+    "category": "headphone",
+    "price": "\u20b911,990",
+    "image": "https://m.media-amazon.com/images/I/71p2R7Qg77L._AC_SL1500_.jpg",
+    "review": "Reference quality audio for audiophiles. Open-back design gives amazing soundstage. Not for commute but phenomenal for home listening."
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "price": "\u20b91,29,999",
+    "image": "https://m.media-amazon.com/images/I/71Xn3EiYH8L._AC_SL1500_.jpg",
+    "review": "Best Android phone available. S Pen is incredibly useful. Camera system is unmatched. Display is gorgeous. 200MP photos are stunning."
+  },
+  {
+    "name": "Apple iPhone 15 Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "price": "\u20b91,34,900",
+    "image": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_SL1500_.jpg",
+    "review": "Titanium frame feels premium. A17 Pro chip is insanely fast. Camera improvements are noticeable. USB-C finally. Action button is very handy."
+  },
+  {
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "category": "smartphone",
+    "price": "\u20b964,999",
+    "image": "https://m.media-amazon.com/images/I/71p2cbvvGML._AC_SL1500_.jpg",
+    "review": "Flagship performance at mid-range price. 100W charging fills in 25 minutes. Smooth 120Hz display. Excellent value for money."
+  },
+  {
+    "name": "Redmi Note 13 Pro",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "price": "\u20b924,999",
+    "image": "https://m.media-amazon.com/images/I/71+pAp0WQEL._AC_SL1500_.jpg",
+    "review": "Amazing camera for price. 200MP produces sharp images. 5G connectivity. Premium glass design. Best budget flagship available."
+  },
+  {
+    "name": "Realme 12 Pro+",
+    "brand": "Realme",
+    "category": "smartphone",
+    "price": "\u20b927,999",
+    "image": "https://m.media-amazon.com/images/I/71cAMOdOY7L._AC_SL1500_.jpg",
+    "review": "Good camera performance. Periscope telephoto is impressive. Battery life is decent. Slightly bloated software but overall good phone."
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "brand": "Apple",
+    "category": "smartwatch",
+    "price": "\u20b941,900",
+    "image": "https://m.media-amazon.com/images/I/71lzRvwJHGL._AC_SL1500_.jpg",
+    "review": "Best smartwatch for iPhone users. Health tracking is incredibly accurate. Double tap gesture is very useful. Display is beautiful."
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "price": "\u20b926,999",
+    "image": "https://m.media-amazon.com/images/I/61xGjf4UQYL._AC_SL1500_.jpg",
+    "review": "Great Android smartwatch. Body composition analysis is a useful feature. Accurate health metrics. Comfortable to wear all day."
+  },
+  {
+    "name": "boAt Wave Flex Connect",
+    "brand": "boAt",
+    "category": "smartwatch",
+    "price": "\u20b91,799",
+    "image": "https://m.media-amazon.com/images/I/61yH8QSIRWL._AC_SL1500_.jpg",
+    "review": "Good basic smartwatch at very low price. Tracks steps and sleep. Bluetooth calling works. Battery lasts a week. Great value."
+  },
+  {
+    "name": "Noise ColorFit Pro 5",
+    "brand": "Noise",
+    "category": "smartwatch",
+    "price": "\u20b93,499",
+    "image": "https://m.media-amazon.com/images/I/61+A+dlbdEL._AC_SL1500_.jpg",
+    "review": "Bright AMOLED display. Health tracking features are accurate. Stylish design. Good battery. Best budget smartwatch in India."
+  },
+  {
+    "name": "JBL Charge 5",
+    "brand": "JBL",
+    "category": "speaker",
+    "price": "\u20b914,999",
+    "image": "https://m.media-amazon.com/images/I/71MOli01ZSL._AC_SL1500_.jpg",
+    "review": "Powerful bass, loud volume, excellent waterproofing. Can also charge your phone. 20 hour battery. Best portable speaker for outdoors."
+  },
+  {
+    "name": "Bose SoundLink Flex",
+    "brand": "Bose",
+    "category": "speaker",
+    "price": "\u20b911,900",
+    "image": "https://m.media-amazon.com/images/I/61mNKQfXFaL._AC_SL1500_.jpg",
+    "review": "Incredible sound quality for its size. Waterproof and dustproof. Can float in water. Bose sound signature is unmatchable. Premium speaker."
+  },
+  {
+    "name": "boAt Stone 1200F",
+    "brand": "boAt",
+    "category": "speaker",
+    "price": "\u20b92,499",
+    "image": "https://m.media-amazon.com/images/I/61ZsCqMfpEL._AC_SL1500_.jpg",
+    "review": "Good bass for the price. Loud enough for rooms. Waterproof feature works. Decent battery. Best budget Bluetooth speaker available."
+  },
+  {
+    "name": "Apple iPad Air M2",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": "\u20b959,900",
+    "image": "https://m.media-amazon.com/images/I/71dtVVNMPoL._AC_SL1500_.jpg",
+    "review": "Phenomenal performance. M2 chip handles everything. Display is gorgeous. Apple Pencil support makes it great for creativity. Best tablet available."
+  },
+  {
+    "name": "Samsung Galaxy Tab S9",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": "\u20b972,999",
+    "image": "https://m.media-amazon.com/images/I/71f+zQyGWUL._AC_SL1500_.jpg",
+    "review": "Best Android tablet. Vivid AMOLED display. S Pen included. DeX mode makes it laptop replacement. Excellent build quality."
+  },
+  {
+    "name": "Redmi Pad SE",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": "\u20b916,999",
+    "image": "https://m.media-amazon.com/images/I/71H1oBBnlVL._AC_SL1500_.jpg",
+    "review": "Good budget tablet. Large screen for entertainment. Battery lasts 2 days. Not for heavy work but great for Netflix and YouTube."
+  },
+  {
+    "name": "Sony Alpha a7 III",
+    "brand": "Sony",
+    "category": "camera",
+    "price": "\u20b91,69,990",
+    "image": "https://m.media-amazon.com/images/I/91EsOsiLaLL._AC_SL1500_.jpg",
+    "review": "Professional grade mirrorless camera. Stunning low light performance. Fast autofocus system. 693 phase detect points. Industry standard for photographers."
+  },
+  {
+    "name": "Canon EOS R50",
+    "brand": "Canon",
+    "category": "camera",
+    "price": "\u20b969,999",
+    "image": "https://m.media-amazon.com/images/I/71+I0thOFhL._AC_SL1500_.jpg",
+    "review": "Perfect beginner mirrorless camera. Easy to use, excellent auto features. Great for vlogging with flip screen. Subject tracking is impressive."
+  },
+  {
+    "name": "GoPro Hero 12",
+    "brand": "GoPro",
+    "category": "camera",
+    "price": "\u20b944,500",
+    "image": "https://m.media-amazon.com/images/I/71n2CqK6jOL._AC_SL1500_.jpg",
+    "review": "Best action camera. HyperSmooth stabilisation is incredible. Shoots 5.3K video. Waterproof without case. Must have for adventure activities."
+  }
+]
