@@ -531,7 +531,7 @@ with tab5:
                 st.markdown("</div>",unsafe_allow_html=True)
 
                 st.download_button("⬇️ Download Analysis Report",
-                    data=json.dumps({"product":ep_name,"category":ep_cat,"review":ep_rev,"prediction":label,"confidence":{"negative":round(float(probs[0]),4),"neutral":round(float(probs[1]),4),"positive":round(float(probs[2]),4)},"recommendations":ELEC_ADVICE[pred]},indent=2),
+                    data=json.dumps({"product":ep_name,"category":ep_cat,"review":ep_rev,"prediction":label,"confidence":{"negative":round(float(probs[0]),4),"neutral":round(float(probs[1]),4),"positive":round(float(probs[2]),4)},"recommendations":ELEC_ADVICE[pred]},indent=2),)
 
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 6 — ABOUT
