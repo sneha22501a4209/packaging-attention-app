@@ -537,7 +537,7 @@ with tab5:
 # TAB 6 — ABOUT
 # ══════════════════════════════════════════════════════════════════════════════
 
-with tab7:
+with tab6:
     st.markdown('<div class="card"><h3>🎯 About PackageAI</h3><p style="color:rgba(255,255,255,0.7)">Packaging Attention Prediction + Electronics Brand Attention. Final Year Major Project 2024-25. Prasad V. Potluri Siddhartha Institute of Technology.</p></div>',unsafe_allow_html=True)
     c1,c2,c3,c4,c5 = st.columns(5)
     for col,icon,title,desc in [(c1,"🧠","MobileNetV2","Packaging Model"),(c2,"📊","MACROS","Multi-Criteria Ranking"),(c3,"📦","5058 Images","Biscuit Dataset"),(c4,"🔬","BERT+CNN","Electronics Model"),(c5,"🎨","Pollinations","AI Image Gen")]:
